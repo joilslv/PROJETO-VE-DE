@@ -1,0 +1,66 @@
+* {}
+
+body {
+    color: #38437A;
+    margin: 0;
+    padding: 0;
+
+}   
+
+header {
+    margin-left: 24px;
+    cursor: pointer;
+}
+.link-header:active {
+    color: red;
+}
+
+.link-header {
+    margin-left: 14px;
+}
+
+div {
+    margin-left: 34px;
+    min-width: 650vw;
+    display: inline-block;
+}
+
+.img-01 {
+    height: 150px;
+    width: none;
+}
+
+.img-02 {
+    height: 80px;
+    width: none;
+}
+.mainmenubtn {
+    background-color: rgb(45, 236, 24);
+    color: rgb(29, 26, 26);
+    border: none;
+    cursor: pointer;
+    padding:5px;
+    margin-top:5px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
